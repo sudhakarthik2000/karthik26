@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .md{
+               border: 2px solid black; 
+               height: 100px;
+               width: 100px;
+               border-radius: 100%;
+               animation-name: spin;
+               animation:spin 5s infinite;
+            }
+            @keyframes spin{
+                0%{
+                    background-color: red;
+                    transform: translate(0vw,0vh);
+
+                }
+                10%{
+                    background-color: blue;
+                    transform: translate(20vw,80vh);
+
+                }
+                20%{
+                    background-color: violet;
+                    transform: translate(40vw,0vh);
+
+                }
+                30%{
+                    background-color: aqua;
+                    transform: translate(60vw,80vh);
+
+                }
+                40%{
+                 transform: translate(80vw,0vh) ;
+                 background-color:blueviolet;
+                }
+                50%{
+                 transform: translate(90vw,80vh) ;
+                 background-color: brown;
+                }
+                60%{
+                    background-color: red;
+                    transform: translate(75vw,0vh);
+
+                }
+                70%{
+                    background-color: blue;
+                    transform: translate(60vw,80vh);
+
+                }
+                80%{
+                    background-color: violet;
+                    transform: translate(40vw,0vh);
+
+                }
+                90%{
+                    background-color: aqua;
+                    transform: translate(20vw,80vh);
+
+                }
+                100%{
+                 transform: translate(0vw,0vh) ;
+                 background-color:blueviolet;
+                }
+
+
+            }
+            body{
+                background-image: url(images/wheather\ background.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+        </style>
+    </head>
+    <body>
+       <div class="md">
+
+       </div>
+    </body>
+</html>
